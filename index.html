@@ -1,213 +1,404 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charSet="utf-8"/>
-		<title>Aniket's Resume</title>
-		<!-- Compiled and minified CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aniket Das — Eternally Curious</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+<link rel="shortcut icon" href="favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+<link rel="manifest" href="favicon/site.webmanifest" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-		<!-- Compiled and minified JavaScript -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<nav>
+  <a href="#" class="nav-logo">ANIKET DAS</a>
+  <ul class="nav-links">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#mythos">Mythos</a></li>
+    <li><a href="#inventory">Inventory</a></li>
+    <li><a href="#now">Now</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-		<!-- Material Icons -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div class="glow-purple"></div>
+  <div class="glow-green"></div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow"><span class="blink">_</span> chronarchitect.github.io · v2026</p>
+    <h1 class="hero-name">
+      <span class="l1">ANIKET</span>
+      <span class="l2">DAS</span>
+    </h1>
+    <div class="hero-pills">
+      <span class="pill y">Engineer</span>
+      <span class="pill g">Builder</span>
+      <span class="pill p">Writer</span>
+      <span class="pill c">Photographer</span>
+      <span class="pill pu">Tinkerer</span>
+    </div>
+    <div class="hero-bottom">
+      <div class="currently">
+        <p class="c-label">Currently_</p>
+        <p class="c-item">Building PixelGhost publicly</p>
+        <p class="c-item">Helping scale Jahnavi's business at muramallajahnaviartistry.com</p>
+        <p class="c-item">Writing long-form essays</p>
+        <p class="c-item">Learning portrait photography</p>
+      </div>
+      <div class="hero-nav">
+        <a href="#work" class="hn-link y">Work</a>
+        <a href="#projects" class="hn-link g">Projects</a>
+        <a href="#mythos" class="hn-link c">Mythos</a>
+        <a href="#inventory" class="hn-link pu">Inventory</a>
+        <a href="#now" class="hn-link y">Now</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- YELLOW MARQUEE -->
+<div class="mq ybar" aria-hidden="true">
+  <div class="mq-track">
+    <span class="mq-item">ENGINEER ✦</span><span class="mq-item">BUILDER ✦</span><span class="mq-item">WRITER ✦</span><span class="mq-item">PHOTOGRAPHER ✦</span><span class="mq-item">TINKERER ✦</span><span class="mq-item">ENGINEER ✦</span><span class="mq-item">BUILDER ✦</span><span class="mq-item">WRITER ✦</span><span class="mq-item">PHOTOGRAPHER ✦</span><span class="mq-item">TINKERER ✦</span>
+  </div>
+</div>
 
-		<!-- My CSS -->
-		<link rel="stylesheet" href="css/style.css">
+<!-- WORK -->
+<section id="work">
+  <p class="s-pre y">Work</p>
+  <h2 class="s-h" style="color:var(--yellow)">EXPERIENCE</h2>
+  <div class="work-list">
 
-		<!-- Ion Icons -->
-		<script type="module" src="https://unpkg.com/ionicons@4.5.9-1/dist/ionicons/ionicons.esm.js"></script>
-		<script nomodule="" src="https://unpkg.com/ionicons@4.5.9-1/dist/ionicons/ionicons.js"></script>
+    <div class="work-card">
+      <div>
+        <p class="work-role y">Dell Technologies · Software Engineer II</p>
+        <h3 class="work-title">AI & Backend Engineering</h3>
+        <ul class="work-bullets">
+          <li>Built a semantic retrieval / RAG-style system for Jira deduplication across 4 engineering teams — swapped TF-IDF for BERT-based dense embeddings, integrated with the Jira API, validated quality with team leads.</li>
+          <li>Active open source contributor across Dell's IaC ecosystem: terraform-provider-objectscale, ansible-powerscale, ansible-powerstore, python-powerstore, dellemc-openmanage-ansible-modules. Terraform provider dev, Ansible collection maintenance, cross-version compatibility.</li>
+          <li>Contributing to internal AI infrastructure and backend services, focusing on retrieval quality and agentic workflows.</li>
+        </ul>
+        <div class="tech-row">
+          <span class="tech">Python</span><span class="tech">Go</span><span class="tech">FastAPI</span><span class="tech">PyTorch</span><span class="tech">BERT</span><span class="tech">RAG</span><span class="tech">Terraform</span><span class="tech">Ansible</span><span class="tech">Docker</span><span class="tech">Linux</span>
+        </div>
+      </div>
+      <div class="work-meta">
+        <p class="work-period">Jan 2023 — Present</p>
+        <p class="work-loc">Bengaluru, India</p>
+      </div>
+    </div>
 
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <div class="work-card">
+      <div>
+        <p class="work-role c">Bosch Global Software Technologies · Project Trainee</p>
+        <h3 class="work-title">Embedded Linux & Multimedia</h3>
+        <ul class="work-bullets">
+          <li>Developed and deployed custom embedded Linux distributions for consumer electronics, enhancing multimedia playback capabilities.</li>
+          <li>Engineered hardware-accelerated multimedia pipelines for video playback on the NXP i.MX 8M Nano Evaluation Kit.</li>
+          <li>Benchmarked six video codecs to optimise pipeline efficiency.</li>
+        </ul>
+        <div class="tech-row">
+          <span class="tech">Linux</span><span class="tech">Embedded Systems</span><span class="tech">GStreamer</span><span class="tech">NXP i.MX 8M</span>
+        </div>
+      </div>
+      <div class="work-meta">
+        <p class="work-period">Jun — Dec 2022</p>
+        <p class="work-loc">Bengaluru, India</p>
+      </div>
+    </div>
 
-	</head>
-	<body>
-		<div class="container">
+  </div>
 
-			<div class="row">
-				<div class="col s6">
-					<div class="section" id="personal-info">
-						<div class="name display-3"><span class="first-name">Aniket</span> <span class="last-name">Das</span></div>
-						<p>A highly passionate student with strong technical skills. Interested in working with actively developing technologies and finding something new.</p>
-					</div>
-				</div>
-				<div class="col s4 offset-s2">
-					<div class="section" id="contact-info">
-						<p class="valign-wrapper contact-align" id="email"><a href="mailto:aniketdas674@gmail.com">aniketdas674@gmail.com &nbsp</a> <i class="tiny material-icons">email</i></p> 
-						<p class="valign-wrapper contact-align" id="phone">+91 7681846257 &nbsp <i class="tiny material-icons">phone_android</i></p>  
-						<p class="valign-wrapper contact-align" id="location">Jamshedpur, India &nbsp <i class="tiny material-icons">location_on</i></p> 
-						<p class="valign-wrapper contact-align" id="linkedin"><a href="https://www.linkedin.com/in/aniket-das-bb761216b/">linkedin.com/in/aniket-das-bb761216b</a> &nbsp <ion-icon name="logo-linkedin"></ion-icon></p>
-						<p class="valign-wrapper contact-align" id="github"><a href="https://github.com/chronarchitect">github.com/chronarchitect</a> &nbsp <ion-icon name="logo-github"></ion-icon></p> 
-					</div>
-				</div>
-			</div>
+  <!-- Education inline, de-emphasised -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);margin-top:1px">
+    <div style="background:var(--bg2);padding:1.4rem 2rem">
+      <p style="font-family:var(--mono);font-size:0.58rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--muted);margin-bottom:0.4rem">M.Tech · Computer Science</p>
+      <p style="font-size:0.82rem;color:var(--mid)">BIT Mesra &nbsp;<span style="color:var(--dimmed)">· CGPA 9.21 · 2021–2023</span></p>
+    </div>
+    <div style="background:var(--bg2);padding:1.4rem 2rem">
+      <p style="font-family:var(--mono);font-size:0.58rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--muted);margin-bottom:0.4rem">B.Tech · CSE</p>
+      <p style="font-size:0.82rem;color:var(--mid)">KIIT Bhubaneswar &nbsp;<span style="color:var(--dimmed)">· CGPA 8.34 · 2017–2021</span></p>
+    </div>
+  </div>
+</section>
 
-			<!-- Horizontal Divide -->
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="s-pre p">Projects</p>
+  <h2 class="s-h" style="color:var(--pink)">WHAT I'VE<br>BUILT</h2>
+  <div class="proj-grid">
 
-			<div class="row">
-				<div class="col s6" id="left">
-					<div class="section" id="education">
-						<div class="section-header">Education</div> 
-						<div class="sub-header">Master of Technology in Computer Science</div>
-						<div class="content">
-							Birla Institute of Technology Mesra, Ranchi<br/>
-							CGPA: 9.21
-							<div class="blue-text">2021 - 2023</div>
-						</div>
+    <div class="proj-card">
+      <div class="proj-n" style="color:var(--pink)">01</div>
+      <div>
+        <h3 class="proj-title">Pixel-Ghost</h3>
+        <p class="proj-stat">AGPLv3 · FastAPI + React/TypeScript · WIP</p>
+        <p class="proj-desc">Modular steganography toolkit. Pluggable encoding architecture (LSB, DCT, DFT), async multiprocessing task queue, Docker + CI/CD pipeline. What I think software design looks like when it has room to breathe.</p>
+        <div class="tech-row"><span class="tech">FastAPI</span><span class="tech">React</span><span class="tech">TypeScript</span><span class="tech">Docker</span><span class="tech">CI/CD</span></div>
+        <div style="margin-top:1rem"><a href="https://github.com/chronarchitect/pixel-ghost" class="proj-link" style="color:var(--pink)" target="_blank" rel="noopener">github.com/chronarchitect/pixel-ghost →</a></div>
+      </div>
+      <span class="badge wip">WIP</span>
+    </div>
 
-						<div class="sub-header">Bachelor of Technology in Computer Science and Engineering</div>
-						<div class="content">
-							Kalinga Institute of Technology, Bhubaneswar<br/>
-							CGPA: 8.34
-							<div class="blue-text ">2017 - 2021</div>
-						</div> 
-						<div class="sub-header">XII Senior Secondary, Computer Science</div>
-						<div class="content">
-							DAV Public School, Bistupur<br/>
-							Percentage: 84.6%
-							<div class="blue-text ">2015 - 2017</div>
-						</div>
-					</div>
-					<div class="section" id="experience">
-						<div class="section-header">Experience</div> 
-						<div class="sub-header">Front-End Web Development Intern</div>
-						<div class="content">
-							College Diary
-							<div class="blue-text ">Jun 2019 - July 2019</div>
-							<div class="link valign-wrapper">
-								<ion-icon name="globe"></ion-icon> &nbsp 
-								<a href="https://college-diary-website.firebaseapp.com/">collegediary.in</a>
-							</div>
-						</div> 
-					</div>
-					<div class="section" id="projects">
-						<div class="section-header">Projects</div> 
-						<div class="sub-header">Secure Outsourcing of Image Editing based on Homomorphic Encryption</div>
-						<div class="content">
-							<div class="blue-text">June 2020 </div>
-							<div class="link valign-wrapper">
-								<ion-icon name="globe"></ion-icon> &nbsp 
-								<a href="https://github.com/chronarchitect/Homomorphic-Image-Encryption">https://github.com/chronarchitect/Homomorphic-Image-Encryption</a>
-							</div>
-							We implement and improve upon an encryption scheme to safeguard image privacy, for cloud based storage and editing services.
-						</div> 
-						<div class="sub-header">Exploring Passenger Survival in a Plane Crash</div>
-						<div class="content">
-							<div class="blue-text">June 2019</div>
-							<div class="link valign-wrapper">
-								<ion-icon name="globe"></ion-icon> &nbsp 
-								<a href="https://github.com/chronarchitect/KNX-Project">https://github.com/chronarchitect/KNX-Project</a>
-							</div>
-							Goal of this project was predicting the survival of passengers after an accident. We use python and data science libraries to analyse the dataset provided, visualisation tools to find patterns and then use an classifier to make predictions on new data.
-						</div>
-					</div>
-					<div class="section" id="interests">
-						<div class="section-header">Interests</div>
-						<div class="content row">
-							<div class="col s6">
-								<p class="valign-wrapper"><i class="material-icons">create</i> &nbsp Creative Writing</p>
-								<p class="valign-wrapper"><i class="material-icons">audiotrack</i> &nbsp Guitar</p>
-							</div>
-							<div class="col s6">
-								<p class="valign-wrapper"><i class="material-icons">videogame_asset</i> &nbsp Video Games</p>
-								<p class="valign-wrapper"><i class="material-icons">book</i> &nbsp Reading</p>
+    <div class="proj-card">
+      <div class="proj-n" style="color:var(--cyan)">02</div>
+      <div>
+        <h3 class="proj-title">Homomorphic Encryption</h3>
+        <p class="proj-stat">⭐ 41 stars · Springer LNEE Vol. 825 · 700+ reads</p>
+        <p class="proj-desc">Privacy-preserving cloud image editing using Paillier's Additive Homomorphic Cryptosystem. Edit images on a remote server without ever decrypting them. Presented at ICIA 2020, published February 2022.</p>
+        <div class="tech-row"><span class="tech">Python</span><span class="tech">Cryptography</span><span class="tech">Paillier HE</span></div>
+        <div style="margin-top:1rem;display:flex;gap:1.5rem;flex-wrap:wrap">
+          <a href="https://doi.org/10.1007/978-981-16-7637-6_41" class="proj-link" style="color:var(--cyan)" target="_blank" rel="noopener">Springer →</a>
+          <a href="https://github.com/chronarchitect/Homomorphic-Image-Encryption" class="proj-link" style="color:var(--cyan)" target="_blank" rel="noopener">GitHub (41★) →</a>
+        </div>
+      </div>
+      <span class="badge pub">Published</span>
+    </div>
 
-							</div>
-						</div>
-					</div>
-				</div>
+    <div class="proj-card">
+      <div class="proj-n" style="color:var(--green)">03</div>
+      <div>
+        <h3 class="proj-title">Jahnavi's Website</h3>
+        <p class="proj-stat">Commercial Deployment · muramallajahnaviartistry.com</p>
+        <p class="proj-desc">Scaling a premium makeup artistry business. High-performance portfolio, integrated booking flow, and SEO-optimized architecture. Helping a growing brand own its digital presence.</p>
+        <div class="tech-row"><span class="tech">Next.js</span><span class="tech">React</span><span class="tech">Vanilla CSS</span><span class="tech">SEO</span></div>
+        <div style="margin-top:1rem"><a href="https://muramallajahnaviartistry.com" class="proj-link" style="color:var(--green)" target="_blank" rel="noopener">muramallajahnaviartistry.com →</a></div>
+      </div>
+      <span class="badge live">Live</span>
+    </div>
 
-				<!-- Vertical Divide -->
+  </div>
+</section>
 
-				<div class="col s6" id="right">
-					<div class="section" id="tech-skills">
-						<div class="section-header">Technical Skills</div>
-						<div class="sub-header">Tools and Technologies</div>
-						<div class="content">PyTorch, Django, Flask, Vim, Git, Github</div>
-						<div class="sub-header">Languages</div>
-						<div class="content"><ion-icon name="bug"></ion-icon> &nbsp <b>Programming</b> C/C++, Python, Java</div>
-						<div class="content"><ion-icon name="code-working"></ion-icon> &nbsp <b>Markup</b> HTML, CSS, LaTeX</div>
-						<div class="sub-header">Operating Systems</div>
-						<div class="content">Linux, Windows</div>
-						<div class="sub-header">Main Interests</div>
-						<div class="content">Cryptography, Machine Learning, Automation</div>
-					</div>
-					<div class="section" id="certs">
-						<div class="section-header">Certificates</div>
-						<div class="sub-header">Introduction to People Analytics</div>
-						<div class="content">
-							Moscow Institute of Physics and Technology</br>
-							<div class="blue-text">March 2021 </div>
-							<div class="link valign-wrapper">
-								<ion-icon name="globe"></ion-icon> &nbsp 
-								<a href="https://www.coursera.org/account/accomplishments/certificate/D4SPPS3Z9E6W">Credential ID: D4SPPS3Z9E6W</a>
-							</div>
-							Issuing Organisation: Coursera</br>
-							Grade Achieved: 100%
-						</div>
-						<div class="sub-header">Fundamentals of Machine Learning</div>
-						<div class="content">
-							Kalinga Institute of Industrial Technology, Bhubaneswar</br>
-							<div class="blue-text">Jan 2019 </div>
-							<div class="link valign-wrapper">
-								<ion-icon name="globe"></ion-icon> &nbsp 
-								<a href="https://chronarchitect.github.io/KNX-Project/">Project: Classifier for Plane Crash Survivability Prediction</a>
-							</div>
-							Credential ID: KIIT/KONNEXIONS/2018-19/AUTUMN/TC/025</br>
-						</div>
+<!-- PINK MARQUEE -->
+<div class="mq pbar" aria-hidden="true">
+  <div class="mq-track">
+    <span class="mq-item">INVENTORY ✦</span><span class="mq-item">MYTHOS ✦</span><span class="mq-item">TIMELINE ✦</span><span class="mq-item">TROPHY WALL ✦</span><span class="mq-item">NOW ✦</span><span class="mq-item">GARDEN ✦</span><span class="mq-item">INVENTORY ✦</span><span class="mq-item">MYTHOS ✦</span><span class="mq-item">TIMELINE ✦</span><span class="mq-item">TROPHY WALL ✦</span><span class="mq-item">NOW ✦</span><span class="mq-item">GARDEN ✦</span>
+  </div>
+</div>
 
-					</div>
-					<div class="section" id="soft-skills">
-						<div class="section-header">Soft Skills</div>
-						<div class="content"> 
-							<div class="badge white-text blue darken-1">People Management</div>
-							<div class="badge white-text blue darken-1">Self Motivation</div>
-							<div class="badge white-text blue darken-1">Adaptability</div>
-						</div>
-					</div>
-					<div class="section" id="languages">
-						<div class="section-header">Languages</div>
-						<div class="lang-table">
-							<div class="col s3">
-								<p>English</p>
-								<p>Hindi</p>
-								<p>Bengali</p>
-							</div>
-							<div class="col s9">
-								<p>Full professional proficiency</p>
-								<p>Native or bilingual proficiency</p>
-								<p>Native or bilingual proficiency</p>
-							</div>
-						</div>
-					</div>
-					<div class="section" id="awards">
-						<div class="section-header">Publications</div>
-						<div class="sub-header">Internet of Things and Its Applications</div>
-						<div class="content">
-							<div class="blue-text">Feb 2022</div>
-							<div class="link valign-wrapper">
-								<ion-icon name="globe"></ion-icon> &nbsp 
-								<a href="https://link.springer.com/book/9789811676369">https://link.springer.com/book/9789811676369</a>
-							</div>
-							Publisher: Springer<br/>
-							Co-authored a research paper on Cloud Based Image Editing, presented in the ICIA 2020 conference held in NIT Jamshedpur.
-						</div>
-					</div>
+<!-- MYTHOS -->
+<section id="mythos">
+  <p class="s-pre c">Mythos</p>
+  <h2 class="s-h" style="color:var(--cyan)">THE WEIRD<br>SECTION</h2>
+  <p class="sub">Recurring themes. Symbols. Personal mythology. Not because it's objectively true — because humans run on stories.</p>
+  <div class="mythos-grid">
+    <div class="myth y"><span class="myth-sym">⚡</span><h3 class="myth-name" style="color:var(--yellow)">ChronArchitect</h3><p class="myth-desc">Time as raw material, not constraint. The one who builds the thing — doesn't just write about it.</p></div>
+    <div class="myth p"><span class="myth-sym">🪓</span><h3 class="myth-name" style="color:var(--pink)">The Kratos Thread</h3><p class="myth-desc">Carrying the weight of who you were into the chapter you're writing now. The choice to author anyway.</p></div>
+    <div class="myth g"><span class="myth-sym">🌿</span><h3 class="myth-name" style="color:var(--green)">Absurdism</h3><p class="myth-desc">Post-nihilism. The universe doesn't care — which is exactly what makes your choices matter.</p></div>
+    <div class="myth pu"><span class="myth-sym">🔭</span><h3 class="myth-name" style="color:var(--purple)">The Observatory</h3><p class="myth-desc">Future artifact. A telescope. A place to feel appropriately small. In progress.</p></div>
+    <div class="myth c"><span class="myth-sym">📡</span><h3 class="myth-name" style="color:var(--cyan)">Mesh & Signal</h3><p class="myth-desc">Decentralised comms as philosophy. Don't depend on infrastructure you don't own.</p></div>
+  </div>
+</section>
 
+<!-- TIMELINE -->
+<section id="timeline">
+  <p class="s-pre pu">Timeline</p>
+  <h2 class="s-h" style="color:var(--purple)">EVIDENCE OF<br>EXISTENCE</h2>
+  <div class="tl">
+    <div class="tl-row">
+      <div class="tl-yr" style="color:var(--yellow)">2026</div>
+      <div class="tl-items">
+        <div class="tl-item"><div class="tl-dot y"></div>Personal website launched — chronarchitect.github.io</div>
+        <div class="tl-item"><div class="tl-dot g"></div>Jahnavi Artistry website launched — muramallajahnaviartistry.com</div>
+        <div class="tl-item"><div class="tl-dot c"></div>PixelGhost publicly deployed — AGPLv3 steganography toolkit</div>
+        <div class="tl-item"><div class="tl-dot p"></div>First portrait photography shoot</div>
+        <div class="tl-item"><div class="tl-dot pu"></div>First YouTube upload — <a class="tl-item" href="https://youtu.be/9KhOPCaNy_A?si=4TyaxEiiLhXEdtUJ">Done</a></div>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-yr" style="color:var(--mid)">2025</div>
+      <div class="tl-items">
+        <div class="tl-item"><div class="tl-dot g"></div>MSI GP63 resurrected — thermal repaste, battery swap, OC</div>
+        <div class="tl-item"><div class="tl-dot c"></div>NVMe enclosure firmware modified via MPtool</div>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-yr" style="color:var(--muted)">2023</div>
+      <div class="tl-items">
+        <div class="tl-item"><div class="tl-dot pu"></div>Joined Dell Technologies full-time — SWE II</div>
+        <div class="tl-item"><div class="tl-dot y"></div>M.Tech completed — BIT Mesra, CGPA 9.21</div>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-yr" style="color:var(--muted)">2022</div>
+      <div class="tl-items">
+        <div class="tl-item"><div class="tl-dot c"></div>Springer paper published — 41 stars, 700+ reads</div>
+        <div class="tl-item"><div class="tl-dot p"></div>Pixel-Ghost first release — Steganography toolkit</div>
+        <div class="tl-item"><div class="tl-dot g"></div>Bosch internship — embedded Linux, multimedia pipelines</div>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-yr" style="color:var(--dimmed)">2021</div>
+      <div class="tl-items">
+        <div class="tl-item"><div class="tl-dot y"></div>B.Tech completed — KIIT, CGPA 8.34</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-				</div>
-			</div>
-		</div>
+<!-- TROPHY WALL -->
+<section id="trophies">
+  <p class="s-pre y">Trophy Wall</p>
+  <h2 class="s-h" style="color:var(--yellow)">THE WALL</h2>
+  <p class="sub">Not for status. For moments. Tiny wins count.</p>
+  <div class="trophy-grid">
+    <div class="trophy"><span class="t-icon">🌐</span><p class="t-name" style="color:var(--green)">Business Website Deployed</p><p class="t-date">muramallajahnaviartistry.com</p></div>
+    <div class="trophy"><span class="t-icon">📸</span><p class="t-name" style="color:var(--pink)">First Client Photo Shoot</p><p class="t-date">Portrait Photography · 2026</p></div>
+    <div class="trophy"><span class="t-icon">🚀</span><p class="t-name" style="color:var(--yellow)">PixelGhost Public Deployment</p><p class="t-date">v1.0 · 2026</p></div>
+    <div class="trophy"><span class="t-icon">⭐</span><p class="t-name" style="color:var(--pink)">41 GitHub Stars</p><p class="t-date">Homomorphic Encryption</p></div>
+    <div class="trophy"><span class="t-icon">📄</span><p class="t-name" style="color:var(--cyan)">Springer Publication</p><p class="t-date">Feb 2022 · 700+ reads</p></div>
+    <div class="trophy"><span class="t-icon">🌐</span><p class="t-name" style="color:var(--green)">Personal Website Launch</p><p class="t-date">chronarchitect.github.io</p></div>
+    <div class="trophy"><span class="t-icon">🔧</span><p class="t-name" style="color:var(--cyan)">Laptop Fully Resurrected</p><p class="t-date">MSI GP63 · 2025</p></div>
+    <div class="trophy"><span class="t-icon">🎸</span><p class="t-name" style="color:var(--purple)">Guitar — Grade 1 Done</p><p class="t-date">2026 · Shifting to Grade 2</p></div>
+  </div>
+</section>
 
-		<!-- Typed JS -->
-		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<!-- INVENTORY -->
+<section id="inventory">
+  <p class="s-pre pu">Inventory</p>
+  <h2 class="s-h" style="color:var(--purple)">WHAT<br>EXISTS</h2>
+  <p class="sub">Not goals. Not plans. Things currently true. An antidote to the brain that only tracks deficits.</p>
+  <div class="inv-grid">
+    <div class="inv-item"><div class="inv-dot y"></div><p class="inv-text">Own apartment in Bengaluru</p></div>
+    <div class="inv-item"><div class="inv-dot g"></div><p class="inv-text">Pixel-Ghost — publicly deployed, WIP</p></div>
+    <div class="inv-item"><div class="inv-dot p"></div><p class="inv-text">Springer paper — 41 stars, 700+ reads</p></div>
+    <div class="inv-item"><div class="inv-dot pu"></div><p class="inv-text">Guitar — in hand, learning from zero</p></div>
+    <div class="inv-item"><div class="inv-dot y"></div><p class="inv-text">Specialty coffee setup at home</p></div>
+    <div class="inv-item"><div class="inv-dot g"></div><p class="inv-text">Sony α6100 — learning to see</p></div>
+    <div class="inv-item"><div class="inv-dot p"></div><p class="inv-text">Jahnavi's Website — muramallajahnaviartistry.com</p></div>
+    <div class="inv-item"><div class="inv-dot c"></div><p class="inv-text">MSI GP63 — fully resurrected desktop</p></div>
+    <div class="inv-item"><div class="inv-dot pu"></div><p class="inv-text">This website — the whole picture</p></div>
+  </div>
+</section>
 
-		<!-- My JS -->
-		<script src="js/scripts.js"></script>
-	</body>
+<!-- OUTSIDE WORK -->
+<section id="outside">
+  <p class="s-pre g">Outside Work</p>
+  <h2 class="s-h" style="color:var(--green)">THE REST<br>OF IT</h2>
+  <div class="outside-grid">
+    <div class="outside-card y">
+      <span class="oc-icon">☕</span>
+      <h3 class="oc-name" style="color:var(--yellow)">Specialty Coffee</h3>
+      <p class="oc-desc">6+ years in. Espresso machine, sourcing single-origins, strong opinions about extraction ratios and water temperature. Not a hobby — a practice.</p>
+    </div>
+    <div class="outside-card p">
+      <span class="oc-icon">🎸</span>
+      <h3 class="oc-name" style="color:var(--pink)">Guitar</h3>
+      <p class="oc-desc">Started from absolute zero, 2026. Vault Strat-style. Justin Guitar curriculum. A deliberate exercise in learning something the slow, patient way — no shortcuts.</p>
+    </div>
+    <div class="outside-card g">
+      <span class="oc-icon">📷</span>
+      <h3 class="oc-name" style="color:var(--green)">Photography</h3>
+      <p class="oc-desc">Sony α6100. Learning to see before learning to shoot. Moody, cinematic — more interested in light and mood than gear.</p>
+    </div>
+    <div class="outside-card c">
+      <span class="oc-icon">🏍️</span>
+      <h3 class="oc-name" style="color:var(--cyan)">Motorcycles</h3>
+      <p class="oc-desc">Riding and modifying. The intersection of mechanical understanding and controlled risk. Things work better when you understand how they're built.</p>
+    </div>
+    <div class="outside-card pu">
+      <span class="oc-icon">🔧</span>
+      <h3 class="oc-name" style="color:var(--purple)">Hardware & Electronics</h3>
+      <p class="oc-desc">18650 cell recovery, firmware flashing, ESP32 boards, NVMe enclosures. If it has a PCB, it's fair game. Use the things you own.</p>
+    </div>
+  </div>
+</section>
+
+<!-- NOW -->
+<section id="now">
+  <p class="s-pre c">Now</p>
+  <h2 class="s-h" style="color:var(--cyan)">JUNE 2026</h2>
+  <p class="sub">Updated monthly. This prevents the site from becoming a museum.</p>
+  <div class="now-grid">
+    <div class="now-card">
+      <p class="nc-label" style="color:var(--yellow)">Building</p>
+      <p class="nc-item">This website</p>
+      <p class="nc-item">Jahnavi's Website</p>
+      <p class="nc-item">Pixel-Ghost (Refactor)</p>
+    </div>
+    <div class="now-card">
+      <p class="nc-label" style="color:var(--pink)">Learning</p>
+      <p class="nc-item">Guitar — Justin Guitar Grade 2</p>
+      <p class="nc-item">Photography — composition + light</p>
+      <p class="nc-item">Meshtastic / mesh networking</p>
+    </div>
+    <div class="now-card">
+      <p class="nc-label" style="color:var(--green)">Thinking About</p>
+      <p class="nc-item">Remote-first work</p>
+      <p class="nc-item">First YouTube upload</p>
+      <p class="nc-item">Cyberdeck build</p>
+    </div>
+    <div class="now-card">
+      <p class="nc-label" style="color:var(--cyan)">Drinking</p>
+      <p class="nc-item">Ethiopia Yirgacheffe — Odd Coffee</p>
+      <p class="nc-item">93°C · 1:15 ratio · 28s bloom</p>
+      <p class="nc-item">The bloom smells like blueberries</p>
+    </div>
+  </div>
+</section>
+
+<!-- DIGITAL GARDEN -->
+<section id="garden">
+  <p class="s-pre pu">Digital Garden</p>
+  <h2 class="s-h" style="color:var(--purple)">THE GARDEN</h2>
+  <p class="sub">Not polished. Notes, observations, half-finished ideas.</p>
+  <div class="garden-grid">
+    <div class="seed"><span class="seed-tag" style="color:var(--yellow)">Principle</span>"Use the things you own until they're used up. Preservation is just delayed loss."</div>
+    <div class="seed"><span class="seed-tag" style="color:var(--pink)">Observation</span>Muscle memory doesn't care about insight. Understanding something and being able to do it are different skills that require different kinds of practice.</div>
+    <div class="seed"><span class="seed-tag" style="color:var(--green)">Idea</span>Inventory as a counter — things added over time become a growth chart. The site should make that visible.</div>
+    <div class="seed"><span class="seed-tag" style="color:var(--cyan)">Quote</span>"You must imagine Sisyphus happy." — Camus. The most radical sentence in philosophy.</div>
+    <div class="seed"><span class="seed-tag" style="color:var(--purple)">Hardware Note</span>RTL9210 NVMe enclosures: strip EFUSE blocks from cfg before flashing. U2/U3_MAXPWR values matter for full power draw.</div>
+    <div class="seed"><span class="seed-tag" style="color:var(--yellow)">On Coffee</span>The variables aren't complicated — they're just many. Water, grind, dose, time, temperature. Most failures are one variable, not all of them.</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="s-pre p">Contact</p>
+  <div class="contact-grid">
+    <div>
+      <h2 class="s-h" style="color:var(--pink);margin-bottom:1rem">LET'S<br>TALK.</h2>
+      <p style="font-family:var(--mono);font-size:0.75rem;color:var(--mid);line-height:1.9;max-width:360px">Interesting conversations welcome — AI systems, roles, collaborations, hardware problems, coffee recommendations in Bengaluru.</p>
+    </div>
+    <div>
+      <div class="soc-links">
+        <a href="mailto:aniketdas674@gmail.com" class="soc-link g">
+          <div class="soc-left"><span class="soc-plat">Email</span><span class="soc-handle">aniketdas674@gmail.com</span></div>
+          <span class="soc-arrow">→</span>
+        </a>
+        <a href="https://github.com/chronarchitect" class="soc-link y" target="_blank" rel="noopener">
+          <div class="soc-left"><span class="soc-plat">GitHub</span><span class="soc-handle">chronarchitect</span></div>
+          <span class="soc-arrow">→</span>
+        </a>
+        <a href="https://www.linkedin.com/in/aniket-das-bb761216b/" class="soc-link c" target="_blank" rel="noopener">
+          <div class="soc-left"><span class="soc-plat">LinkedIn</span><span class="soc-handle">aniket-das-bb761216b</span></div>
+          <span class="soc-arrow">→</span>
+        </a>
+        <a href="https://youtube.com/@chronarchitect" class="soc-link p" target="_blank" rel="noopener">
+          <div class="soc-left"><span class="soc-plat">YouTube</span><span class="soc-handle">@aniketsetgo</span></div>
+          <span class="soc-arrow">→</span>
+        </a>
+        <a href="https://instagram.com/chronarchitect" class="soc-link pu" target="_blank" rel="noopener">
+          <div class="soc-left"><span class="soc-plat">Instagram</span><span class="soc-handle">@aniket.set.go</span></div>
+          <span class="soc-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="f-logo">ANIKET DAS</span>
+  <span class="f-copy">© 2026 · chronarchitect.github.io · Built for future Aniket</span>
+</footer>
+
+</body>
 </html>
