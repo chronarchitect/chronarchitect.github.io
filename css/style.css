@@ -140,6 +140,18 @@ section{padding:clamp(4rem,8vw,7rem) var(--px);border-bottom:1px solid var(--lin
 .t-name{font-family:var(--mono);font-size:0.62rem;letter-spacing:0.13em;text-transform:uppercase;line-height:1.5}
 .t-date{font-family:var(--mono);font-size:0.55rem;color:var(--muted);margin-top:0.4rem}
 
+/* CERTIFICATES */
+.certs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:var(--line)}
+.cert-card{background:var(--bg2);padding:2rem;display:flex;flex-direction:column;gap:1.2rem;transition:background 0.2s}
+.cert-card:hover{background:var(--bg3)}
+.cert-meta{display:flex;flex-direction:column;gap:0.4rem}
+.cert-issuer{font-family:var(--mono);font-size:0.58rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted)}
+.cert-title{font-family:var(--display);font-size:1.5rem;letter-spacing:0.04em;line-height:1.1;color:var(--white)}
+.cert-date{font-family:var(--mono);font-size:0.6rem;color:var(--dimmed)}
+.cert-id{font-family:var(--mono);font-size:0.55rem;color:var(--muted);margin-top:0.5rem;display:block}
+.cert-skills{display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:auto}
+.cert-skill{font-family:var(--mono);font-size:0.55rem;color:var(--mid);border:1px solid var(--line);padding:0.15rem 0.5rem}
+
 /* NOW */
 .now-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line)}
 .now-card{background:var(--bg2);padding:1.8rem}
